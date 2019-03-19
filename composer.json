@@ -1,0 +1,31 @@
+{
+    "name": "ambengers/phutilities",
+    "description": "A collection of PHP utility classes",
+    "keywords": {
+        "php",
+        "utility",
+    },
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marvin Quezon",
+            "email": "quezon.marvin@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ambengers\\Phutilities\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ambengers\\Phutilities\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
